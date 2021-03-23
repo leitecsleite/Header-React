@@ -19,12 +19,14 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 0;
 
 }
 
 .nav-links  li{
    list-style: none;
    margin: 0px 10px;
+ 
    
 }
 
@@ -44,4 +46,24 @@ nav {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+@media (max-width:430px){
+    header{
+        flex-direction: column;
+    }
+}
+@media (max-width:379px) {
+    .nav-links{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+@media (max-width:378px) {
+    header{
+        height: 150px;
+    }
 }
