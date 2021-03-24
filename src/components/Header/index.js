@@ -5,15 +5,17 @@ import './style.css';
 export default function Header(){
     return(
         <header>
-            <div className = "logo-header"> Logo </div>
-                <nav>
-                    <ul className = "nav-links">
-                       <li><a href= "#" > HOME </a></li>
-                       <li><a href= "#" > SOBRE </a></li>
-                       <li><a href= "#" > NOVIDADE </a></li>
-                       <li><a href= "#" > CONTATO </a></li>
-                    </ul>
-                </nav>
+            <div className ="container-header">
+                <div className= "logo-header">cultured Kid</div>
+                 <nav className="navbar"> 
+                     <ul>
+                         <li className = "link-header"><a href="#">PADING</a></li>
+                         <li className = "link-header"><a href="#">DRAWING</a></li>
+                         <li className = "link-header"><a href="#">SCULPTURE</a></li>
+                         <li className = "link-header"><a href="#">ARTISTIC</a></li>
+                     </ul>
+                 </nav>
+            </div>
         </header>
     )
 }
