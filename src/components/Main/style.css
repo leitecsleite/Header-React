@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+main {
+    display: flex;
+    width: 100%;
+   /* border: 1px solid black; */
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-main {
+    display: flex;
+    width: 90%;
+    height: 500px;
+   /* border: 1px solid black;*/
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.titulo-main{
+    display: flex;
+    justify-content: space-between;
+   /* border: 1px solid black;*/
+    height: 56px;
+    align-items: center;
+}
+.titulo {
+ /*  border: 1px solid black; */
+   height: 56px; 
+
+   margin-left: 120px;
+
+   font-family: 'Karla', sans-serif;
+   font-weight: 700;
+   font-size: 52px;
+   line-height: 56px;
+
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 511px;
+    border: 1px solid black;
+    width: 100%;
+    box-sizing: border-box;
+}
