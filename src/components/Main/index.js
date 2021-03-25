@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './style.css'
-import Card from './Card'
+import Carousel from '../Carousel';
 
 
 export default function Main (){
@@ -12,11 +12,8 @@ export default function Main (){
                     <div></div>
                 </div>
                 
-                <div className ="container-card">
-                     <Card imagem = "assets/foto_1.jpg"/>
-                     <Card imagem = "assets/foto_2.jpg"/>
-                     <Card imagem=  "assets/fotos_3.jpg" />
-                </div>
+
+                <Carousel/>
 
             </div>
         </main>

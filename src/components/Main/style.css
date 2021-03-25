@@ -3,7 +3,7 @@
 
 main {
     display: flex;
-    width: 100%;
+    width: 100vw;
    /* border: 1px solid black; */
     height: 700px;
     justify-content: center;
@@ -13,7 +13,7 @@ main {
 .container-main {
     display: flex;
     width: 90%;
-    height: 500px;
+    height: 700px;
    /* border: 1px solid black;*/
     flex-direction: column;
     box-sizing: border-box;
@@ -25,6 +25,7 @@ main {
    /* border: 1px solid black;*/
     height: 56px;
     align-items: center;
+    padding: 60px 0;
 }
 .titulo {
  /*  border: 1px solid black; */
