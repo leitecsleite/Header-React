@@ -24,26 +24,16 @@
     
 }
 
-
-/*.img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
-
 .box-conteudo h1 {
     font-size: 14px;
     font-family: 'Karla', sans-serif;
     letter-spacing: 00.88px;
 }
 
-
-
-
 img{
     width: 230px;
     height: 264px;
     object-fit: contain;
-
+    background: #F4F4F2;
 }
 

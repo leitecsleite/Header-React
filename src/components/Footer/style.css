@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
 .footer-container{
     display: flex;
     justify-content: center;
@@ -5,4 +7,56 @@
     background: #F4F4F2;
     height: 255px;
     width: 100vw;
+}
+.footer-container-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   /* border: 1px solid black;*/
+    width: 70%;
+    height: 80px;
+}
+
+.footer-container-info-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   /* border: 1px solid black;*/
+    height: 80px;
+    width: 33%;
+}
+.footer-container-info-1-foto{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.footer-container-info-1-foto img {
+    height: 80px;
+    width: 50%;
+    object-fit: contain;
+}
+
+.footer-container-info-1-descricao{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    height: 80px ;
+
+}
+
+.footer-container-info-1-descricao h1 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #161412;
+    letter-spacing: 0.33px;
+}
+
+.footer-container-info-1-descricao p {
+    font-size: 14px;
+    line-height: 16px;
+    font-style: italic;
 }

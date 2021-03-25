@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
 
 header{
      width: 100vw; 
@@ -55,6 +55,10 @@ header{
     font-size: 14px;
     line-height: 28px;
     letter-spacing: 0.88px;
+}
+
+.navbar ul li a:hover{
+  color: #F4F4F2;
 }
 
 @media (max-width:698px) {

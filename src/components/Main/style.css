@@ -8,6 +8,7 @@ main {
     height: 700px;
     justify-content: center;
     align-items: center;
+    padding-bottom: 200px;
 }
 
 .container-main {
@@ -25,7 +26,7 @@ main {
    /* border: 1px solid black;*/
     height: 56px;
     align-items: center;
-    padding: 60px 0;
+    padding: 100px 0;
 }
 .titulo {
  /*  border: 1px solid black; */
