@@ -8,11 +8,11 @@ export default function Footer(){
             <div className = "footer-container">
                 <div className ="footer-container-info">
                     <div className ="footer-container-info-1">
-                          <div className ="footer-container-info-1-foto">
+                          <div className ="footer-container-info-1-foto img-autor-1">
                               <img src="assets/foto_eugenia.jpg"/>
                           </div>
 
-                          <div className ="footer-container-info-1-descricao">
+                          <div className ="footer-container-info-1-descricao ">
                               <h1>Eugenia</h1>
                               <p>Painter, Amsterdam</p>
                           </div>    

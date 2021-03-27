@@ -25,26 +25,26 @@ export default class AutoPlay extends Component {
         <div className ="box-card">
             <div className ="box-conteudo">
                 <div className ="img"> <img src ="assets/foto_6.jpg"/></div>
-                <h1>Primeiro Conteudo</h1>
+                <h1></h1>
             </div> 
         </div>
         <div className ="box-card">  
             <div className ="box-conteudo">
                 <div className ="img"><img src ="assets/foto_1.jpg"/></div>
-                  <h1>Segundo Conteudo</h1>
+                  <h1></h1>
                  
             </div> 
         </div>
         <div className ="box-card">
             <div className ="box-conteudo">
                 <div className ="img"><img src ="assets/foto_2.jpg"/></div>
-                <h1>Terceiro conteúdo</h1>
+                <h1></h1>
             </div> 
         </div>
         <div className ="box-card">
             <div className ="box-conteudo">
                 <div className ="img"><img src ="assets/fotos_3.jpg"/></div>
-                <h1>Quardo conteúdo</h1>
+                <h1></h1>
             </div> 
         </div>
         <div className ="box-card">

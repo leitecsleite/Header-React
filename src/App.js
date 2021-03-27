@@ -1,15 +1,11 @@
 
 import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import PaginaInicial from './components/PaginaInicial';
 
 function App() {
   return (
     <div className="App">
-       <Header />
-       <Main />
-       <Footer />
+       <PaginaInicial />
     </div>
   );
 }

@@ -10,7 +10,7 @@
 }
 .footer-container-info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
    /* border: 1px solid black;*/
     width: 70%;
@@ -35,8 +35,12 @@
 .footer-container-info-1-foto img {
     height: 80px;
     width: 50%;
-    object-fit: contain;
+    object-fit: cover;
+    background: #F4F4F2;
+  
 }
+
+
 
 .footer-container-info-1-descricao{
     display: flex;
