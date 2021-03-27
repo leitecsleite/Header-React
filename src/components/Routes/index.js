@@ -1,21 +1,22 @@
 import React from 'react'; 
-import {BrowserRouter, Swich, Route } from 'react-router-dom'; 
+import {BrowserRouter, Switch, Route } from 'react-router-dom'; 
 
 import PaginaInicial from '../PaginaInicial'; 
 import PaginaDrawing from '../PaginaDrawing'; 
 import PaginaArtistic from '../PaginaArtistic'; 
 import PaginaSculpture from '../PaginaSculpture';
 
- const Routes = () => {
-     <BrowserRouter>
-        <Swich>
+
+export default function Routes(){
+    return(
+    <BrowserRouter>
+        <Switch>
             <Route exact path='/' component = {PaginaInicial}/>
-            <Route exact path='/' component = {PaginaDrawing}/>
-            <Route exact path='/' component = {PaginaArtistic}/>
-            <Route exact path='/' component = {PaginaSculpture}/>  
-        </Swich>
+            <Route  path='/drawing' component = {PaginaDrawing}/>
+            <Route path='/sculpture' component = {PaginaArtistic}/>
+            <Route  path='/artistic' component = {PaginaSculpture}/>  
+        </Switch>
     
      </BrowserRouter>
- }
-
- export default Routes; 
+    )
+}

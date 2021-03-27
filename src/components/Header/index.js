@@ -10,10 +10,10 @@ export default function Header(){
                 <div className= "logo-header">cultured Kid</div>
                  <nav className="navbar"> 
                      <ul>
-                         <li className = "link-header"><a href="#">PADING</a></li>
-                         <li className = "link-header"><a href="#">DRAWING</a></li>
-                         <li className = "link-header"><a href="#">SCULPTURE</a></li>
-                         <li className = "link-header"><a href="#">ARTISTIC</a></li>
+                         <li className = "link-header"><Link to ='/' >PADING</Link></li>
+                         <li className = "link-header"><Link to ='/drawing'> DRAWING </Link> </li>
+                         <li className = "link-header"><Link to ='/sculpture'>SCULPTURE </Link ></li>
+                         <li className = "link-header"><Link to ='/artistic' >ARTISTIC </Link> </li>
                      </ul>
                  </nav>
             </div>

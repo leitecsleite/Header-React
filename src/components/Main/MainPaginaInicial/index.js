@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './style.css'
-import Carousel from '../Carousel';
+import Carousel from '../../Carousel';
 
 
 export default function Main (){

@@ -15,6 +15,7 @@
    /* border: 1px solid black;*/
     width: 70%;
     height: 80px;
+    flex-flow: column wrap;
 }
 
 .footer-container-info-1{
@@ -64,3 +65,5 @@
     line-height: 16px;
     font-style: italic;
 }
+
+
